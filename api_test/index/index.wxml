@@ -1,0 +1,4 @@
+<view class="conton" bindtap="tiao" wx:for="{{shu}}" data-cate-id="{{item.id}}">
+  <text>链接题目：{{item.title}}</text>
+  <text>链接地址：{{item.url}}</text>
+</view>
